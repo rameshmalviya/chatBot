@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="card card-custom-css h-100">
+        <div class="card-header">CHAT BOT</div>
+        <div class="card-body overflow-auto-y d-flex flex-column gap-3" id="chatInteractionBox">
+            <div class="left-message animate__animated animate__fadeInLeft animate__delay-1s">
+                <span class="left-chat-text">hello, how can help you ?</span>
+            </div>
+            <div class="left-message animate__animated animate__fadeInLeft animate__delay-2s">
+                <span class="left-chat-text">Are you Looking to save on your monthly loans payments ?</span>
+            </div>
+            <div class="left-message animate__animated animate__fadeInLeft animate__delay-3s">
+                <div class="d-flex gap-1">
+                    <button class="btn btn-sm btn-primary buttonMessageReplyHandler">
+                        No, I like paying more.
+                    </button>
+                    <button class="btn btn-sm btn-primary buttonMessageReplyHandler">
+                        Yes!
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="right-message">
+                <span class="right-chat-text">how are you</span>
+            </div> -->
+        </div>
+        <div class="card-footer d-flex gap-2">
+            <input type="text" id="sendMessageInput" placeholder="send message..." class="form-control" />
+            <button class="btn btn-primary" id="sendMessageBtnHandler">
+                SEND
+            </button>
+        </div>
+    </div>
+
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js"></script>
+
+</html>

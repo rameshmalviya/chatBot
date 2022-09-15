@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.card-custom-css {
+    border: none;
+    border-radius: 0px;
+}
+
+.card-custom-css .card-header {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    background-color: rgb(0, 58, 166);
+}
+
+.card-custom-css .card-footer>input {
+    border-radius: 30px;
+}
+
+
+.card-custom-css .card-footer>input:focus{
+    box-shadow: none;
+}
+
+.card-custom-css .card-footer>button {
+    border-radius: 30px;
+}
+
+.left-message {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right-message {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.left-chat-text {
+    padding: 5px 10px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.right-chat-text {
+    padding: 5px 10px;
+    background-color: rgb(20, 114, 255);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.overflow-auto-y {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.buttonMessageReplyHandler {
+    border-radius: 30px;
+}
+
+.left-message::before {
+    background-image: url(../img/chatBotAvatar.jpg);
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    content: "";
+}
+
+.right-message::after {
+    background-image: url(../img/customerAvatar.png);
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    content: "";
+}
