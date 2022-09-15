@@ -1,3 +1,3 @@
 # chatBot
-Sample code using html, css and jquary.
+Sample code
 DEMO LINK : https://rameshmalviya.github.io/chatBot/
