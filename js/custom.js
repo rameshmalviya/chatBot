@@ -97,9 +97,6 @@ function chatSendFn() {
                 "</div>" +
                 "<div class='left-message animate__animated animate__fadeInLeft animate__delay-3s'>" +
                 "<div class='d-flex gap-1'>" +
-                "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>Better rates</button>" +
-                "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>Loan consolidation</button>" +
-                "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>All of the above</button>" +
                 "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>None of the above</button>" +
                 "</div>" +
                 "</div>";
@@ -109,9 +106,6 @@ function chatSendFn() {
                 "</div>" +
                 "<div class='left-message animate__animated animate__fadeInLeft animate__delay-3s'>" +
                 "<div class='d-flex gap-1'>" +
-                "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>Better rates</button>" +
-                "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>Loan consolidation</button>" +
-                "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>All of the above</button>" +
                 "<button class='btn btn-sm btn-primary buttonMessageReplyHandler'>None of the above</button>" +
                 "</div>" +
                 "</div>";
